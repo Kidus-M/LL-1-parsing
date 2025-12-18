@@ -482,10 +482,6 @@ class LL1GUI:
             self.tree_sim.insert("", "end", values=(i + 1, step["stack"], step["input"], step["action"]))
 
 
-# ==========================================
-# MAIN ENTRY POINT
-# ==========================================
-
 if __name__ == "__main__":
     root = tk.Tk()
     app = LL1GUI(root)
