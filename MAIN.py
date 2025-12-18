@@ -1,12 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 from collections import defaultdict
-import pandas as pd  # Optional, mainly for internal structure, but we will use standard dicts to avoid dependencies
-
-
-# ==========================================
-# BACKEND: LL(1) PARSER LOGIC
-# ==========================================
 
 class LL1Parser:
     def __init__(self, grammar_text):
